@@ -101,8 +101,7 @@ ul li a .Contract {
 
 .section1 .image1 img {
     width: 423px;
-    margin-left: 94px 
- width: 398px;
+    margin-left: 94px width: 398px;
     margin-left: 120px;
     margin-top: -12px;
 }
@@ -116,7 +115,7 @@ ul li a .Contract {
 
 }
 
- .section1 .image2 img {
+.section1 .image2 img {
     width: 371px;
     margin-left: 104px;
     margin-top: -22px;
@@ -193,6 +192,7 @@ ul li a .Contract {
     letter-spacing: 0em;
     margin-bottom: 25px;
     margin-left: -51%;
+
 }
 
 .grandtitre button {
@@ -207,7 +207,7 @@ ul li a .Contract {
 
 .grandtitre button img {
     vertical-align: middle;
-}  
+}
 
 
 
@@ -869,9 +869,19 @@ p span {
     .grandtitre .hello {
         margin-top: 0%;
     }
-     .grandtitre button{
-        margin-left: 50px;
+
+    .grandtitre p {
+        line-height: 17px;
+        margin-top: 8%;
     }
+
+    .grandtitre button {
+        margin-left: 50px;
+        padding: 4px 0px 4px 21px;
+        margin-top: 15px;
+    }
+
+
 
 }
 
@@ -886,7 +896,7 @@ p span {
 
     }
 
-    
+
 
     .entete {
         float: left;
@@ -923,6 +933,13 @@ p span {
 
     .section22 h2 {
         font-size: 22px;
+        margin-left: 5%;
+        margin-top: 19%;
+        line-height: 1;
+    }
+
+    .section22 .My_service {
+        margin-top: 52px;
     }
 
 
@@ -939,12 +956,13 @@ p span {
 
 @media screen and (max-width: 800px) {
     .section3 .your_images img {
-        width: 52%;
+        width: 56%;
         margin-top: 98%;
-        margin-left: -92%;
+        margin-left: -96%;
         position: absolute;
     }
-    .section1{
+
+    .section1 {
         height: 343px;
     }
 
@@ -955,33 +973,36 @@ p span {
 
     .section2 .Design {
         width: 251px;
-
-        margin-left: -73px;
+        height: 273px;
+        margin-left: -63px;
     }
 
     .section2 .Design1 {
         width: 251px;
+        height: 273px;
         margin-left: -73px;
+        margin-bottom: 3%;
     }
 
 
     .section3 .imagehere img {
-        margin-left: 93%;
+        margin-left: 89%;
+        width: 252px;
     }
 
     .imageAboutme .image4 img {
         border-radius: 5%;
-        width: 171%;
-        margin-left: -299%;
+        width: 175%;
+        margin-left: -308%;
         margin-top: 281%;
     }
 
     .descriptionAboutme h2 {
         padding-top: 130%;
-        font-size: 192%;
+        font-size: 180%;
         text-align: center;
         margin: inherit;
-        margin-left: 22px;
+        margin-left: 11px;
     }
 
     .descriptionAboutme p {
@@ -989,7 +1010,7 @@ p span {
         margin-top: 7%;
         text-align: center;
         margin: inherit;
-        padding-left: 42px;
+        padding-left: 18px;
     }
 
     .section4 {
@@ -1001,8 +1022,14 @@ p span {
     }
 
     .cv {
-        margin-left: 22%;
+        margin-left: 29%;
         margin-top: 5%;
+        padding: 6px 0px 6px 21px;
+        font-size: 10px;
+    }
+
+    .cv img {
+        width: 11px;
     }
 
     h1.section5 {
@@ -1111,7 +1138,8 @@ p span {
     .section11 .Contact .formulaire input.Subject2 {
         width: 85%;
     }
-    p .blog{
+
+    p .blog {
         margin-top: -12%;
     }
 
@@ -1139,22 +1167,23 @@ p span {
         width: 240px;
     }
 
-    .grandtitre h1{
+    .grandtitre h1 {
         padding-top: 25px;
         line-height: normal;
         font-size: 19px;
         text-align: center;
     }
-    .grandtitre p{
+
+    .grandtitre p {
         text-align: center;
         margin-left: 0;
         line-height: 32px;
     }
-    
+
 }
 
 @media only screen and (max-width: 480px) {
     body {
-      font-size: 12px;
+        font-size: 12px;
     }
-  }
+}
