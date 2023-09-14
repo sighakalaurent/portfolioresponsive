@@ -1150,4 +1150,7 @@ p span {
         margin-left: 0;
         line-height: 32px;
     }
+    body{
+        width: 500px;
+    }
 }
